@@ -24,7 +24,7 @@ function isSelected($value, $selectedValue) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BJ Global Linguistics ðŸ§‘â€ðŸ«</title>
+    <title>BJ Global Linguistics 🧑‍🏫</title>
     <style>
         /* Global Styles */
         body {
@@ -131,182 +131,182 @@ function isSelected($value, $selectedValue) {
 <body>
 
     <div class="header">
-        BJ Global Linguistics ðŸ§‘â€ðŸ«
+        BJ Global Linguistics 🧑‍🏫
     </div>
 
     <div class="container">
         <form method="POST">
             <div class="row">
                 <select name="from">
-<option value="auto" <?= isSelected('auto', $from) ?>>ðŸŒ Auto Detect</option>
-<option value="en" <?= isSelected('en', $from) ?>>ðŸ‡¬ðŸ‡§ English</option>
-<option value="ur" <?= isSelected('ur', $from) ?>>ðŸ‡µðŸ‡° Urdu</option>
-<option value="sd" <?= isSelected('sd', $from) ?>>ðŸ‡µðŸ‡° Sindhi</option>
-<option value="bn" <?= isSelected('bn', $from) ?>>ðŸ‡§ðŸ‡© Bengali</option>
-<option value="hi" <?= isSelected('hi', $from) ?>>ðŸ‡®ðŸ‡³ Hindi</option>
-<option value="ne" <?= isSelected('ne', $from) ?>>ðŸ‡³ðŸ‡µ Nepali</option>
-<option value="pa" <?= isSelected('pa', $from) ?>>ðŸ‡®ðŸ‡³ Punjabi</option>
-<option value="ta" <?= isSelected('ta', $from) ?>>ðŸ‡®ðŸ‡³ Tamil</option>
-<option value="te" <?= isSelected('te', $from) ?>>ðŸ‡®ðŸ‡³ Telugu</option>
-<option value="ml" <?= isSelected('ml', $from) ?>>ðŸ‡®ðŸ‡³ Malayalam</option>
-<option value="mr" <?= isSelected('mr', $from) ?>>ðŸ‡®ðŸ‡³ Marathi</option>
-<option value="gu" <?= isSelected('gu', $from) ?>>ðŸ‡®ðŸ‡³ Gujarati</option>
-<option value="kn" <?= isSelected('kn', $from) ?>>ðŸ‡®ðŸ‡³ Kannada</option>
+<option value="auto" <?= isSelected('auto', $from) ?>>🌍 Auto Detect</option>
+<option value="en" <?= isSelected('en', $from) ?>>🇬🇧 English</option>
+<option value="ur" <?= isSelected('ur', $from) ?>>🇵🇰 Urdu</option>
+<option value="sd" <?= isSelected('sd', $from) ?>>🇵🇰 Sindhi</option>
+<option value="bn" <?= isSelected('bn', $from) ?>>🇧🇩 Bengali</option>
+<option value="hi" <?= isSelected('hi', $from) ?>>🇮🇳 Hindi</option>
+<option value="ne" <?= isSelected('ne', $from) ?>>🇳🇵 Nepali</option>
+<option value="pa" <?= isSelected('pa', $from) ?>>🇮🇳 Punjabi</option>
+<option value="ta" <?= isSelected('ta', $from) ?>>🇮🇳 Tamil</option>
+<option value="te" <?= isSelected('te', $from) ?>>🇮🇳 Telugu</option>
+<option value="ml" <?= isSelected('ml', $from) ?>>🇮🇳 Malayalam</option>
+<option value="mr" <?= isSelected('mr', $from) ?>>🇮🇳 Marathi</option>
+<option value="gu" <?= isSelected('gu', $from) ?>>🇮🇳 Gujarati</option>
+<option value="kn" <?= isSelected('kn', $from) ?>>🇮🇳 Kannada</option>
 
 <!-- Google Translate Supported Languages -->
-<option value="af" <?= isSelected('af', $from) ?>>ðŸ‡¿ðŸ‡¦ Afrikaans</option>
-<option value="sq" <?= isSelected('sq', $from) ?>>ðŸ‡¦ðŸ‡± Albanian</option>
-<option value="am" <?= isSelected('am', $from) ?>>ðŸ‡ªðŸ‡¹ Amharic</option>
-<option value="ar" <?= isSelected('ar', $from) ?>>ðŸ‡¸ðŸ‡¦ Arabic</option>
-<option value="hy" <?= isSelected('hy', $from) ?>>ðŸ‡¦ðŸ‡² Armenian</option>
-<option value="az" <?= isSelected('az', $from) ?>>ðŸ‡¦ðŸ‡¿ Azerbaijani</option>
-<option value="eu" <?= isSelected('eu', $from) ?>>ðŸ‡ªðŸ‡¸ Basque</option>
-<option value="be" <?= isSelected('be', $from) ?>>ðŸ‡§ðŸ‡¾ Belarusian</option>
-<option value="bs" <?= isSelected('bs', $from) ?>>ðŸ‡§ðŸ‡¦ Bosnian</option>
-<option value="bg" <?= isSelected('bg', $from) ?>>ðŸ‡§ðŸ‡¬ Bulgarian</option>
-<option value="ca" <?= isSelected('ca', $from) ?>>ðŸ‡ªðŸ‡¸ Catalan</option>
-<option value="ceb" <?= isSelected('ceb', $from) ?>>ðŸ‡µðŸ‡­ Cebuano</option>
-<option value="ny" <?= isSelected('ny', $from) ?>>ðŸ‡²ðŸ‡¼ Chichewa</option>
-<option value="zh" <?= isSelected('zh', $from) ?>>ðŸ‡¨ðŸ‡³ Chinese</option>
-<option value="co" <?= isSelected('co', $from) ?>>ðŸ‡«ðŸ‡· Corsican</option>
-<option value="hr" <?= isSelected('hr', $from) ?>>ðŸ‡­ðŸ‡· Croatian</option>
-<option value="cs" <?= isSelected('cs', $from) ?>>ðŸ‡¨ðŸ‡¿ Czech</option>
-<option value="da" <?= isSelected('da', $from) ?>>ðŸ‡©ðŸ‡° Danish</option>
-<option value="nl" <?= isSelected('nl', $from) ?>>ðŸ‡³ðŸ‡± Dutch</option>
-<option value="eo" <?= isSelected('eo', $from) ?>>ðŸŒ Esperanto</option>
-<option value="et" <?= isSelected('et', $from) ?>>ðŸ‡ªðŸ‡ª Estonian</option>
-<option value="tl" <?= isSelected('tl', $from) ?>>ðŸ‡µðŸ‡­ Filipino</option>
-<option value="fi" <?= isSelected('fi', $from) ?>>ðŸ‡«ðŸ‡® Finnish</option>
-<option value="fr" <?= isSelected('fr', $from) ?>>ðŸ‡«ðŸ‡· French</option>
-<option value="gl" <?= isSelected('gl', $from) ?>>ðŸ‡ªðŸ‡¸ Galician</option>
-<option value="ka" <?= isSelected('ka', $from) ?>>ðŸ‡¬ðŸ‡ª Georgian</option>
-<option value="de" <?= isSelected('de', $from) ?>>ðŸ‡©ðŸ‡ª German</option>
-<option value="el" <?= isSelected('el', $from) ?>>ðŸ‡¬ðŸ‡· Greek</option>
-<option value="ht" <?= isSelected('ht', $from) ?>>ðŸ‡­ðŸ‡¹ Haitian Creole</option>
-<option value="ha" <?= isSelected('ha', $from) ?>>ðŸ‡³ðŸ‡¬ Hausa</option>
-<option value="haw" <?= isSelected('haw', $from) ?>>ðŸ‡ºðŸ‡¸ Hawaiian</option>
-<option value="iw" <?= isSelected('iw', $from) ?>>ðŸ‡®ðŸ‡± Hebrew</option>
-<option value="hu" <?= isSelected('hu', $from) ?>>ðŸ‡­ðŸ‡º Hungarian</option>
-<option value="is" <?= isSelected('is', $from) ?>>ðŸ‡®ðŸ‡¸ Icelandic</option>
-<option value="id" <?= isSelected('id', $from) ?>>ðŸ‡®ðŸ‡© Indonesian</option>
-<option value="ga" <?= isSelected('ga', $from) ?>>ðŸ‡®ðŸ‡ª Irish</option>
-<option value="it" <?= isSelected('it', $from) ?>>ðŸ‡®ðŸ‡¹ Italian</option>
-<option value="ja" <?= isSelected('ja', $from) ?>>ðŸ‡¯ðŸ‡µ Japanese</option>
-<option value="jw" <?= isSelected('jw', $from) ?>>ðŸ‡®ðŸ‡© Javanese</option>
-<option value="kk" <?= isSelected('kk', $from) ?>>ðŸ‡°ðŸ‡¿ Kazakh</option>
-<option value="km" <?= isSelected('km', $from) ?>>ðŸ‡°ðŸ‡­ Khmer</option>
-<option value="ko" <?= isSelected('ko', $from) ?>>ðŸ‡°ðŸ‡· Korean</option>
-<option value="ku" <?= isSelected('ku', $from) ?>>ðŸ‡®ðŸ‡¶ Kurdish</option>
-<option value="ky" <?= isSelected('ky', $from) ?>>ðŸ‡°ðŸ‡¬ Kyrgyz</option>
-<option value="lo" <?= isSelected('lo', $from) ?>>ðŸ‡±ðŸ‡¦ Lao</option>
-<option value="la" <?= isSelected('la', $from) ?>>ðŸŒ Latin</option>
-<option value="lv" <?= isSelected('lv', $from) ?>>ðŸ‡±ðŸ‡» Latvian</option>
-<option value="lt" <?= isSelected('lt', $from) ?>>ðŸ‡±ðŸ‡¹ Lithuanian</option>
-<option value="mk" <?= isSelected('mk', $from) ?>>ðŸ‡²ðŸ‡° Macedonian</option>
-<option value="mg" <?= isSelected('mg', $from) ?>>ðŸ‡²ðŸ‡¬ Malagasy</option>
-<option value="ms" <?= isSelected('ms', $from) ?>>ðŸ‡²ðŸ‡¾ Malay</option>
-<option value="mt" <?= isSelected('mt', $from) ?>>ðŸ‡²ðŸ‡¹ Maltese</option>
-<option value="no" <?= isSelected('no', $from) ?>>ðŸ‡³ðŸ‡´ Norwegian</option>
-<option value="ps" <?= isSelected('ps', $from) ?>>ðŸ‡¦ðŸ‡« Pashto</option>
-<option value="fa" <?= isSelected('fa', $from) ?>>ðŸ‡®ðŸ‡· Persian</option>
-<option value="pl" <?= isSelected('pl', $from) ?>>ðŸ‡µðŸ‡± Polish</option>
-<option value="pt" <?= isSelected('pt', $from) ?>>ðŸ‡µðŸ‡¹ Portuguese</option>
-<option value="ro" <?= isSelected('ro', $from) ?>>ðŸ‡·ðŸ‡´ Romanian</option>
-<option value="ru" <?= isSelected('ru', $from) ?>>ðŸ‡·ðŸ‡º Russian</option>
-<option value="es" <?= isSelected('es', $from) ?>>ðŸ‡ªðŸ‡¸ Spanish</option>
-<option value="th" <?= isSelected('th', $from) ?>>ðŸ‡¹ðŸ‡­ Thai</option>
-<option value="tr" <?= isSelected('tr', $from) ?>>ðŸ‡¹ðŸ‡· Turkish</option>
-<option value="uk" <?= isSelected('uk', $from) ?>>ðŸ‡ºðŸ‡¦ Ukrainian</option>
-<option value="uz" <?= isSelected('uz', $from) ?>>ðŸ‡ºðŸ‡¿ Uzbek</option>
-<option value="vi" <?= isSelected('vi', $from) ?>>ðŸ‡»ðŸ‡³ Vietnamese</option>
-<option value="zu" <?= isSelected('zu', $from) ?>>ðŸ‡¿ðŸ‡¦ Zulu</option>
+<option value="af" <?= isSelected('af', $from) ?>>🇿🇦 Afrikaans</option>
+<option value="sq" <?= isSelected('sq', $from) ?>>🇦🇱 Albanian</option>
+<option value="am" <?= isSelected('am', $from) ?>>🇪🇹 Amharic</option>
+<option value="ar" <?= isSelected('ar', $from) ?>>🇸🇦 Arabic</option>
+<option value="hy" <?= isSelected('hy', $from) ?>>🇦🇲 Armenian</option>
+<option value="az" <?= isSelected('az', $from) ?>>🇦🇿 Azerbaijani</option>
+<option value="eu" <?= isSelected('eu', $from) ?>>🇪🇸 Basque</option>
+<option value="be" <?= isSelected('be', $from) ?>>🇧🇾 Belarusian</option>
+<option value="bs" <?= isSelected('bs', $from) ?>>🇧🇦 Bosnian</option>
+<option value="bg" <?= isSelected('bg', $from) ?>>🇧🇬 Bulgarian</option>
+<option value="ca" <?= isSelected('ca', $from) ?>>🇪🇸 Catalan</option>
+<option value="ceb" <?= isSelected('ceb', $from) ?>>🇵🇭 Cebuano</option>
+<option value="ny" <?= isSelected('ny', $from) ?>>🇲🇼 Chichewa</option>
+<option value="zh" <?= isSelected('zh', $from) ?>>🇨🇳 Chinese</option>
+<option value="co" <?= isSelected('co', $from) ?>>🇫🇷 Corsican</option>
+<option value="hr" <?= isSelected('hr', $from) ?>>🇭🇷 Croatian</option>
+<option value="cs" <?= isSelected('cs', $from) ?>>🇨🇿 Czech</option>
+<option value="da" <?= isSelected('da', $from) ?>>🇩🇰 Danish</option>
+<option value="nl" <?= isSelected('nl', $from) ?>>🇳🇱 Dutch</option>
+<option value="eo" <?= isSelected('eo', $from) ?>>🌍 Esperanto</option>
+<option value="et" <?= isSelected('et', $from) ?>>🇪🇪 Estonian</option>
+<option value="tl" <?= isSelected('tl', $from) ?>>🇵🇭 Filipino</option>
+<option value="fi" <?= isSelected('fi', $from) ?>>🇫🇮 Finnish</option>
+<option value="fr" <?= isSelected('fr', $from) ?>>🇫🇷 French</option>
+<option value="gl" <?= isSelected('gl', $from) ?>>🇪🇸 Galician</option>
+<option value="ka" <?= isSelected('ka', $from) ?>>🇬🇪 Georgian</option>
+<option value="de" <?= isSelected('de', $from) ?>>🇩🇪 German</option>
+<option value="el" <?= isSelected('el', $from) ?>>🇬🇷 Greek</option>
+<option value="ht" <?= isSelected('ht', $from) ?>>🇭🇹 Haitian Creole</option>
+<option value="ha" <?= isSelected('ha', $from) ?>>🇳🇬 Hausa</option>
+<option value="haw" <?= isSelected('haw', $from) ?>>🇺🇸 Hawaiian</option>
+<option value="iw" <?= isSelected('iw', $from) ?>>🇮🇱 Hebrew</option>
+<option value="hu" <?= isSelected('hu', $from) ?>>🇭🇺 Hungarian</option>
+<option value="is" <?= isSelected('is', $from) ?>>🇮🇸 Icelandic</option>
+<option value="id" <?= isSelected('id', $from) ?>>🇮🇩 Indonesian</option>
+<option value="ga" <?= isSelected('ga', $from) ?>>🇮🇪 Irish</option>
+<option value="it" <?= isSelected('it', $from) ?>>🇮🇹 Italian</option>
+<option value="ja" <?= isSelected('ja', $from) ?>>🇯🇵 Japanese</option>
+<option value="jw" <?= isSelected('jw', $from) ?>>🇮🇩 Javanese</option>
+<option value="kk" <?= isSelected('kk', $from) ?>>🇰🇿 Kazakh</option>
+<option value="km" <?= isSelected('km', $from) ?>>🇰🇭 Khmer</option>
+<option value="ko" <?= isSelected('ko', $from) ?>>🇰🇷 Korean</option>
+<option value="ku" <?= isSelected('ku', $from) ?>>🇮🇶 Kurdish</option>
+<option value="ky" <?= isSelected('ky', $from) ?>>🇰🇬 Kyrgyz</option>
+<option value="lo" <?= isSelected('lo', $from) ?>>🇱🇦 Lao</option>
+<option value="la" <?= isSelected('la', $from) ?>>🌍 Latin</option>
+<option value="lv" <?= isSelected('lv', $from) ?>>🇱🇻 Latvian</option>
+<option value="lt" <?= isSelected('lt', $from) ?>>🇱🇹 Lithuanian</option>
+<option value="mk" <?= isSelected('mk', $from) ?>>🇲🇰 Macedonian</option>
+<option value="mg" <?= isSelected('mg', $from) ?>>🇲🇬 Malagasy</option>
+<option value="ms" <?= isSelected('ms', $from) ?>>🇲🇾 Malay</option>
+<option value="mt" <?= isSelected('mt', $from) ?>>🇲🇹 Maltese</option>
+<option value="no" <?= isSelected('no', $from) ?>>🇳🇴 Norwegian</option>
+<option value="ps" <?= isSelected('ps', $from) ?>>🇦🇫 Pashto</option>
+<option value="fa" <?= isSelected('fa', $from) ?>>🇮🇷 Persian</option>
+<option value="pl" <?= isSelected('pl', $from) ?>>🇵🇱 Polish</option>
+<option value="pt" <?= isSelected('pt', $from) ?>>🇵🇹 Portuguese</option>
+<option value="ro" <?= isSelected('ro', $from) ?>>🇷🇴 Romanian</option>
+<option value="ru" <?= isSelected('ru', $from) ?>>🇷🇺 Russian</option>
+<option value="es" <?= isSelected('es', $from) ?>>🇪🇸 Spanish</option>
+<option value="th" <?= isSelected('th', $from) ?>>🇹🇭 Thai</option>
+<option value="tr" <?= isSelected('tr', $from) ?>>🇹🇷 Turkish</option>
+<option value="uk" <?= isSelected('uk', $from) ?>>🇺🇦 Ukrainian</option>
+<option value="uz" <?= isSelected('uz', $from) ?>>🇺🇿 Uzbek</option>
+<option value="vi" <?= isSelected('vi', $from) ?>>🇻🇳 Vietnamese</option>
+<option value="zu" <?= isSelected('zu', $from) ?>>🇿🇦 Zulu</option>
 
                 </select>
 
                 <button class="swap-btn" type="button" onclick="swapLanguages()">&#8646;</button>
 
                 <select name="to">
-<option value="ur" <?= isSelected('ur', $to) ?>>ðŸ‡µðŸ‡° Urdu</option>
-<option value="en" <?= isSelected('en', $to) ?>>ðŸ‡¬ðŸ‡§ English</option>
-<option value="sd" <?= isSelected('sd', $to) ?>>ðŸ‡µðŸ‡° Sindhi</option>
-<option value="bn" <?= isSelected('bn', $to) ?>>ðŸ‡§ðŸ‡© Bengali</option>
-<option value="hi" <?= isSelected('hi', $to) ?>>ðŸ‡®ðŸ‡³ Hindi</option>
-<option value="ne" <?= isSelected('ne', $to) ?>>ðŸ‡³ðŸ‡µ Nepali</option>
-<option value="pa" <?= isSelected('pa', $to) ?>>ðŸ‡®ðŸ‡³ Punjabi</option>
-<option value="ta" <?= isSelected('ta', $to) ?>>ðŸ‡®ðŸ‡³ Tamil</option>
-<option value="te" <?= isSelected('te', $to) ?>>ðŸ‡®ðŸ‡³ Telugu</option>
-<option value="ml" <?= isSelected('ml', $to) ?>>ðŸ‡®ðŸ‡³ Malayalam</option>
-<option value="mr" <?= isSelected('mr', $to) ?>>ðŸ‡®ðŸ‡³ Marathi</option>
-<option value="gu" <?= isSelected('gu', $to) ?>>ðŸ‡®ðŸ‡³ Gujarati</option>
-<option value="kn" <?= isSelected('kn', $to) ?>>ðŸ‡®ðŸ‡³ Kannada</option>
+<option value="ur" <?= isSelected('ur', $to) ?>>🇵🇰 Urdu</option>
+<option value="en" <?= isSelected('en', $to) ?>>🇬🇧 English</option>
+<option value="sd" <?= isSelected('sd', $to) ?>>🇵🇰 Sindhi</option>
+<option value="bn" <?= isSelected('bn', $to) ?>>🇧🇩 Bengali</option>
+<option value="hi" <?= isSelected('hi', $to) ?>>🇮🇳 Hindi</option>
+<option value="ne" <?= isSelected('ne', $to) ?>>🇳🇵 Nepali</option>
+<option value="pa" <?= isSelected('pa', $to) ?>>🇮🇳 Punjabi</option>
+<option value="ta" <?= isSelected('ta', $to) ?>>🇮🇳 Tamil</option>
+<option value="te" <?= isSelected('te', $to) ?>>🇮🇳 Telugu</option>
+<option value="ml" <?= isSelected('ml', $to) ?>>🇮🇳 Malayalam</option>
+<option value="mr" <?= isSelected('mr', $to) ?>>🇮🇳 Marathi</option>
+<option value="gu" <?= isSelected('gu', $to) ?>>🇮🇳 Gujarati</option>
+<option value="kn" <?= isSelected('kn', $to) ?>>🇮🇳 Kannada</option>
 
 <!-- Google Translate Supported Languages -->
-<option value="af" <?= isSelected('af', $to) ?>>ðŸ‡¿ðŸ‡¦ Afrikaans</option>
-<option value="sq" <?= isSelected('sq', $to) ?>>ðŸ‡¦ðŸ‡± Albanian</option>
-<option value="am" <?= isSelected('am', $to) ?>>ðŸ‡ªðŸ‡¹ Amharic</option>
-<option value="ar" <?= isSelected('ar', $to) ?>>ðŸ‡¸ðŸ‡¦ Arabic</option>
-<option value="hy" <?= isSelected('hy', $to) ?>>ðŸ‡¦ðŸ‡² Armenian</option>
-<option value="az" <?= isSelected('az', $to) ?>>ðŸ‡¦ðŸ‡¿ Azerbaijani</option>
-<option value="eu" <?= isSelected('eu', $to) ?>>ðŸ‡ªðŸ‡¸ Basque</option>
-<option value="be" <?= isSelected('be', $to) ?>>ðŸ‡§ðŸ‡¾ Belarusian</option>
-<option value="bs" <?= isSelected('bs', $to) ?>>ðŸ‡§ðŸ‡¦ Bosnian</option>
-<option value="bg" <?= isSelected('bg', $to) ?>>ðŸ‡§ðŸ‡¬ Bulgarian</option>
-<option value="ca" <?= isSelected('ca', $to) ?>>ðŸ‡ªðŸ‡¸ Catalan</option>
-<option value="ceb" <?= isSelected('ceb', $to) ?>>ðŸ‡µðŸ‡­ Cebuano</option>
-<option value="ny" <?= isSelected('ny', $to) ?>>ðŸ‡²ðŸ‡¼ Chichewa</option>
-<option value="zh" <?= isSelected('zh', $to) ?>>ðŸ‡¨ðŸ‡³ Chinese</option>
-<option value="co" <?= isSelected('co', $to) ?>>ðŸ‡«ðŸ‡· Corsican</option>
-<option value="hr" <?= isSelected('hr', $to) ?>>ðŸ‡­ðŸ‡· Croatian</option>
-<option value="cs" <?= isSelected('cs', $to) ?>>ðŸ‡¨ðŸ‡¿ Czech</option>
-<option value="da" <?= isSelected('da', $to) ?>>ðŸ‡©ðŸ‡° Danish</option>
-<option value="nl" <?= isSelected('nl', $to) ?>>ðŸ‡³ðŸ‡± Dutch</option>
-<option value="eo" <?= isSelected('eo', $to) ?>>ðŸŒ Esperanto</option>
-<option value="et" <?= isSelected('et', $to) ?>>ðŸ‡ªðŸ‡ª Estonian</option>
-<option value="tl" <?= isSelected('tl', $to) ?>>ðŸ‡µðŸ‡­ Filipino</option>
-<option value="fi" <?= isSelected('fi', $to) ?>>ðŸ‡«ðŸ‡® Finnish</option>
-<option value="fr" <?= isSelected('fr', $to) ?>>ðŸ‡«ðŸ‡· French</option>
-<option value="gl" <?= isSelected('gl', $to) ?>>ðŸ‡ªðŸ‡¸ Galician</option>
-<option value="ka" <?= isSelected('ka', $to) ?>>ðŸ‡¬ðŸ‡ª Georgian</option>
-<option value="de" <?= isSelected('de', $to) ?>>ðŸ‡©ðŸ‡ª German</option>
-<option value="el" <?= isSelected('el', $to) ?>>ðŸ‡¬ðŸ‡· Greek</option>
-<option value="ht" <?= isSelected('ht', $to) ?>>ðŸ‡­ðŸ‡¹ Haitian Creole</option>
-<option value="ha" <?= isSelected('ha', $to) ?>>ðŸ‡³ðŸ‡¬ Hausa</option>
-<option value="haw" <?= isSelected('haw', $to) ?>>ðŸ‡ºðŸ‡¸ Hawaiian</option>
-<option value="iw" <?= isSelected('iw', $to) ?>>ðŸ‡®ðŸ‡± Hebrew</option>
-<option value="hu" <?= isSelected('hu', $to) ?>>ðŸ‡­ðŸ‡º Hungarian</option>
-<option value="is" <?= isSelected('is', $to) ?>>ðŸ‡®ðŸ‡¸ Icelandic</option>
-<option value="id" <?= isSelected('id', $to) ?>>ðŸ‡®ðŸ‡© Indonesian</option>
-<option value="ga" <?= isSelected('ga', $to) ?>>ðŸ‡®ðŸ‡ª Irish</option>
-<option value="it" <?= isSelected('it', $to) ?>>ðŸ‡®ðŸ‡¹ Italian</option>
-<option value="ja" <?= isSelected('ja', $to) ?>>ðŸ‡¯ðŸ‡µ Japanese</option>
-<option value="jw" <?= isSelected('jw', $to) ?>>ðŸ‡®ðŸ‡© Javanese</option>
-<option value="kk" <?= isSelected('kk', $to) ?>>ðŸ‡°ðŸ‡¿ Kazakh</option>
-<option value="km" <?= isSelected('km', $to) ?>>ðŸ‡°ðŸ‡­ Khmer</option>
-<option value="ko" <?= isSelected('ko', $to) ?>>ðŸ‡°ðŸ‡· Korean</option>
-<option value="ku" <?= isSelected('ku', $to) ?>>ðŸ‡®ðŸ‡¶ Kurdish</option>
-<option value="ky" <?= isSelected('ky', $to) ?>>ðŸ‡°ðŸ‡¬ Kyrgyz</option>
-<option value="lo" <?= isSelected('lo', $to) ?>>ðŸ‡±ðŸ‡¦ Lao</option>
-<option value="la" <?= isSelected('la', $to) ?>>ðŸŒ Latin</option>
-<option value="lv" <?= isSelected('lv', $to) ?>>ðŸ‡±ðŸ‡» Latvian</option>
-<option value="lt" <?= isSelected('lt', $to) ?>>ðŸ‡±ðŸ‡¹ Lithuanian</option>
-<option value="mk" <?= isSelected('mk', $to) ?>>ðŸ‡²ðŸ‡° Macedonian</option>
-<option value="mg" <?= isSelected('mg', $to) ?>>ðŸ‡²ðŸ‡¬ Malagasy</option>
-<option value="ms" <?= isSelected('ms', $to) ?>>ðŸ‡²ðŸ‡¾ Malay</option>
-<option value="mt" <?= isSelected('mt', $to) ?>>ðŸ‡²ðŸ‡¹ Maltese</option>
-<option value="no" <?= isSelected('no', $to) ?>>ðŸ‡³ðŸ‡´ Norwegian</option>
-<option value="ps" <?= isSelected('ps', $to) ?>>ðŸ‡¦ðŸ‡« Pashto</option>
-<option value="fa" <?= isSelected('fa', $to) ?>>ðŸ‡®ðŸ‡· Persian</option>
-<option value="pl" <?= isSelected('pl', $to) ?>>ðŸ‡µðŸ‡± Polish</option>
-<option value="pt" <?= isSelected('pt', $to) ?>>ðŸ‡µðŸ‡¹ Portuguese</option>
-<option value="ro" <?= isSelected('ro', $to) ?>>ðŸ‡·ðŸ‡´ Romanian</option>
-<option value="ru" <?= isSelected('ru', $to) ?>>ðŸ‡·ðŸ‡º Russian</option>
-<option value="es" <?= isSelected('es', $to) ?>>ðŸ‡ªðŸ‡¸ Spanish</option>
-<option value="th" <?= isSelected('th', $to) ?>>ðŸ‡¹ðŸ‡­ Thai</option>
-<option value="tr" <?= isSelected('tr', $to) ?>>ðŸ‡¹ðŸ‡· Turkish</option>
-<option value="uk" <?= isSelected('uk', $to) ?>>ðŸ‡ºðŸ‡¦ Ukrainian</option>
-<option value="uz" <?= isSelected('uz', $to) ?>>ðŸ‡ºðŸ‡¿ Uzbek</option>
-<option value="vi" <?= isSelected('vi', $to) ?>>ðŸ‡»ðŸ‡³ Vietnamese</option>
-<option value="zu" <?= isSelected('zu', $to) ?>>ðŸ‡¿ðŸ‡¦ Zulu</option>
+<option value="af" <?= isSelected('af', $to) ?>>🇿🇦 Afrikaans</option>
+<option value="sq" <?= isSelected('sq', $to) ?>>🇦🇱 Albanian</option>
+<option value="am" <?= isSelected('am', $to) ?>>🇪🇹 Amharic</option>
+<option value="ar" <?= isSelected('ar', $to) ?>>🇸🇦 Arabic</option>
+<option value="hy" <?= isSelected('hy', $to) ?>>🇦🇲 Armenian</option>
+<option value="az" <?= isSelected('az', $to) ?>>🇦🇿 Azerbaijani</option>
+<option value="eu" <?= isSelected('eu', $to) ?>>🇪🇸 Basque</option>
+<option value="be" <?= isSelected('be', $to) ?>>🇧🇾 Belarusian</option>
+<option value="bs" <?= isSelected('bs', $to) ?>>🇧🇦 Bosnian</option>
+<option value="bg" <?= isSelected('bg', $to) ?>>🇧🇬 Bulgarian</option>
+<option value="ca" <?= isSelected('ca', $to) ?>>🇪🇸 Catalan</option>
+<option value="ceb" <?= isSelected('ceb', $to) ?>>🇵🇭 Cebuano</option>
+<option value="ny" <?= isSelected('ny', $to) ?>>🇲🇼 Chichewa</option>
+<option value="zh" <?= isSelected('zh', $to) ?>>🇨🇳 Chinese</option>
+<option value="co" <?= isSelected('co', $to) ?>>🇫🇷 Corsican</option>
+<option value="hr" <?= isSelected('hr', $to) ?>>🇭🇷 Croatian</option>
+<option value="cs" <?= isSelected('cs', $to) ?>>🇨🇿 Czech</option>
+<option value="da" <?= isSelected('da', $to) ?>>🇩🇰 Danish</option>
+<option value="nl" <?= isSelected('nl', $to) ?>>🇳🇱 Dutch</option>
+<option value="eo" <?= isSelected('eo', $to) ?>>🌍 Esperanto</option>
+<option value="et" <?= isSelected('et', $to) ?>>🇪🇪 Estonian</option>
+<option value="tl" <?= isSelected('tl', $to) ?>>🇵🇭 Filipino</option>
+<option value="fi" <?= isSelected('fi', $to) ?>>🇫🇮 Finnish</option>
+<option value="fr" <?= isSelected('fr', $to) ?>>🇫🇷 French</option>
+<option value="gl" <?= isSelected('gl', $to) ?>>🇪🇸 Galician</option>
+<option value="ka" <?= isSelected('ka', $to) ?>>🇬🇪 Georgian</option>
+<option value="de" <?= isSelected('de', $to) ?>>🇩🇪 German</option>
+<option value="el" <?= isSelected('el', $to) ?>>🇬🇷 Greek</option>
+<option value="ht" <?= isSelected('ht', $to) ?>>🇭🇹 Haitian Creole</option>
+<option value="ha" <?= isSelected('ha', $to) ?>>🇳🇬 Hausa</option>
+<option value="haw" <?= isSelected('haw', $to) ?>>🇺🇸 Hawaiian</option>
+<option value="iw" <?= isSelected('iw', $to) ?>>🇮🇱 Hebrew</option>
+<option value="hu" <?= isSelected('hu', $to) ?>>🇭🇺 Hungarian</option>
+<option value="is" <?= isSelected('is', $to) ?>>🇮🇸 Icelandic</option>
+<option value="id" <?= isSelected('id', $to) ?>>🇮🇩 Indonesian</option>
+<option value="ga" <?= isSelected('ga', $to) ?>>🇮🇪 Irish</option>
+<option value="it" <?= isSelected('it', $to) ?>>🇮🇹 Italian</option>
+<option value="ja" <?= isSelected('ja', $to) ?>>🇯🇵 Japanese</option>
+<option value="jw" <?= isSelected('jw', $to) ?>>🇮🇩 Javanese</option>
+<option value="kk" <?= isSelected('kk', $to) ?>>🇰🇿 Kazakh</option>
+<option value="km" <?= isSelected('km', $to) ?>>🇰🇭 Khmer</option>
+<option value="ko" <?= isSelected('ko', $to) ?>>🇰🇷 Korean</option>
+<option value="ku" <?= isSelected('ku', $to) ?>>🇮🇶 Kurdish</option>
+<option value="ky" <?= isSelected('ky', $to) ?>>🇰🇬 Kyrgyz</option>
+<option value="lo" <?= isSelected('lo', $to) ?>>🇱🇦 Lao</option>
+<option value="la" <?= isSelected('la', $to) ?>>🌍 Latin</option>
+<option value="lv" <?= isSelected('lv', $to) ?>>🇱🇻 Latvian</option>
+<option value="lt" <?= isSelected('lt', $to) ?>>🇱🇹 Lithuanian</option>
+<option value="mk" <?= isSelected('mk', $to) ?>>🇲🇰 Macedonian</option>
+<option value="mg" <?= isSelected('mg', $to) ?>>🇲🇬 Malagasy</option>
+<option value="ms" <?= isSelected('ms', $to) ?>>🇲🇾 Malay</option>
+<option value="mt" <?= isSelected('mt', $to) ?>>🇲🇹 Maltese</option>
+<option value="no" <?= isSelected('no', $to) ?>>🇳🇴 Norwegian</option>
+<option value="ps" <?= isSelected('ps', $to) ?>>🇦🇫 Pashto</option>
+<option value="fa" <?= isSelected('fa', $to) ?>>🇮🇷 Persian</option>
+<option value="pl" <?= isSelected('pl', $to) ?>>🇵🇱 Polish</option>
+<option value="pt" <?= isSelected('pt', $to) ?>>🇵🇹 Portuguese</option>
+<option value="ro" <?= isSelected('ro', $to) ?>>🇷🇴 Romanian</option>
+<option value="ru" <?= isSelected('ru', $to) ?>>🇷🇺 Russian</option>
+<option value="es" <?= isSelected('es', $to) ?>>🇪🇸 Spanish</option>
+<option value="th" <?= isSelected('th', $to) ?>>🇹🇭 Thai</option>
+<option value="tr" <?= isSelected('tr', $to) ?>>🇹🇷 Turkish</option>
+<option value="uk" <?= isSelected('uk', $to) ?>>🇺🇦 Ukrainian</option>
+<option value="uz" <?= isSelected('uz', $to) ?>>🇺🇿 Uzbek</option>
+<option value="vi" <?= isSelected('vi', $to) ?>>🇻🇳 Vietnamese</option>
+<option value="zu" <?= isSelected('zu', $to) ?>>🇿🇦 Zulu</option>
                 </select>
             </div>
 
@@ -316,7 +316,7 @@ function isSelected($value, $selectedValue) {
         
         <div class="output" id="translationOutput">
             <?php if (isset($result['translated_text'])): ?>
-                <button class="copy-btn" onclick="copyText()">ðŸ“‹</button>
+                <button class="copy-btn" onclick="copyText()">📋</button>
                 <p><strong>Translation:</strong> <span id="translatedText"><?php echo htmlspecialchars($result['translated_text']); ?></span></p>
             <?php elseif (isset($response)): ?>
                 <p>Error fetching translation!</p>
@@ -325,7 +325,7 @@ function isSelected($value, $selectedValue) {
     </div>
 
     <div class="footer">
-        Â© 2025 BJ Tricks | <a href="https://t.me/BJ_Devs" style="color: #e50914;">Learn More About Us</a>
+        © 2025 BJ Tricks | <a href="https://t.me/BJ_Devs" style="color: #e50914;">Learn More About Us</a>
     </div>
 
     <script>
